@@ -1,0 +1,125 @@
+html {
+  height: auto;
+}
+
+@font-face {
+  font-family: norseBold;
+  src: url("../Norse-Bold.otf")
+}
+
+body {
+  display: flex;
+  margin: 0;
+}
+
+.background-image {
+  flex-grow: 1;
+  height: auto;
+  background-image: url("../greenleaf.jpg");
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+
+.transparent-banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  background: rgba(0,0,0, 0.4);
+  height: 150px;
+  width: auto;
+}
+
+.odin-logo {
+  height: 100%;
+  width: 20%;
+  background-image: url("../odin.png");
+  background-size: 87% 80%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.odin-text {
+  color: white;
+  font-family: norseBold;
+  font-size: 80px;
+  align-self: center;
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.right-side-container {
+  display: flex;
+  width: 1%;
+  flex-grow: 2.2;
+  flex-direction: column;
+}
+
+.description {
+  height: 190px;
+  background-color: #fafafa;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 170px 110px 0px 50px;
+}
+
+.description.form {
+  height: 0px;
+  background-color: white;
+  padding: 20px 0px 0px 50px;
+}
+
+.credentials {
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+}
+
+.create-account {
+  height: 340px;
+  background-color: #fafafa;
+}
+
+.form-container {
+  display: flex;
+  margin: 50px;
+}
+
+.form-container form {
+  margin-right: 70px;
+}
+
+.input-boxes-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+.input-boxes {
+  width: 220px;
+  height: 20px;
+  margin-bottom: 20px;
+  border-color: rgb(0, 0, 0, 0.1);
+  border-radius: 3px;
+  border-width: 1.5px;;
+}
+
+.button {
+  background-color: #596D48;
+  color: white;
+  border-radius: 3px;
+  margin: 20px 0px 20px 50px;
+  height: 50px;
+  width: 190px;
+}
+
+.login {
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.create-account a {
+  text-decoration: none;
+  color: #596D48
+}
